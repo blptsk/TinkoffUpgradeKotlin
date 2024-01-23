@@ -7,7 +7,7 @@ import org.junit.runners.Parameterized
 import w3_junit.Calculation
 
 @RunWith(Parameterized::class)
-class StandardCalculatorTest(
+class ParametrizedCalculatorTest(
     private val firstOperand: Double,
     private val secondOperand: Double,
     private val expectedValue: Double) {
